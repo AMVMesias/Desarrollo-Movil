@@ -95,7 +95,11 @@ class _PaginaLoginState extends State<PaginaLogin> {
             if (_mensajeError != null) ...[
               Text(
                 _mensajeError!,
-                style: TextStyle(color: Colors.red),
+                style: TextStyle(
+                  color: Colors.red,
+                  fontSize: 14,
+                  fontWeight: FontWeight.bold,
+                ),
                 textAlign: TextAlign.center,
               ),
               SizedBox(height: 10),
